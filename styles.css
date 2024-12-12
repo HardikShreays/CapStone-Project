@@ -1,0 +1,242 @@
+body{
+    background-color: black;
+    width: Fixed (1,440px)px;
+    height: Hug (3,352px)px;
+    min-height: 900px;
+    top: -1677px;
+    left: -720px;
+    padding: 0px 48px 0px 48px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+
+}
+.navbar > h2{
+    font-family: MuseoModerno;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.navbar{
+    display: flex;
+    color: white;
+    width: Fill (1,344px)px;
+    height: Hug (80px)px;
+    padding: 16px 0px 16px 0px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    /* border-bottom: 1px solid white; */
+
+}
+.bar{
+    display: flex;
+    width: Hug (466px)px;
+    height: Hug (32px)px;
+    gap: 32px;
+    opacity: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    border-bottom: 1px solid white;
+}
+.content{
+    width: Fill (1,344px)px;
+    height: Hug (1,104px)px;
+    padding: 72px 0px 72px 0px;
+    gap: 48px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    width: 1344px;
+
+}
+.content > h1{
+    height: 240px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    font-family: Chivo;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.projects{
+    width: Fill (1,344px)px;
+    height: Hug (720px)px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+
+
+}
+.project-head{
+    width: 1344px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Chivo;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.photo-container{
+    display: flex;
+    width: Fill (1,344px)px;
+    height: Hug (624px)px;
+    gap: 24px;
+    opacity: 0px;
+    /* background-color: #FFFFFF; */
+    justify-content: space-between;
+}
+
+.card{
+    
+    /* serviceItem[fixed] */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 416px;
+    height: 560px;
+    gap: 10px;
+
+}
+.card > img{
+    border-top: 1px solid #FFFFFF;
+    width: 416px;
+    height: 420px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.card > button{
+    /* buttonFilledStandard */
+
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    width: 117px;
+    height: 36px;
+
+    background: #928DD3;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    border: none;
+
+
+}
+
+.cardtext{
+    width: Fill (200px)px;
+    height: Hug (56px)px;
+    padding: 0px 12px 0px 12px;
+    gap: 12px;
+    opacity: 0px;
+    text-align: center;    
+}
+.description-box{
+    width: Fill (1,344px)px;
+    height: Hug (508px)px;
+    padding: 72px 0px 72px 0px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    
+}
+.description{
+    width: 672px;
+    height: 364px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.description > p{
+    font-style: "Chivo";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    width: 400px;
+    height: 276px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.inputs > input{
+    
+    width: 56px;
+    height: 64px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+    border: 1px solid white;
+    color: #FFFFFF;
+    margin: 8px;
+    margin-top: 48px;
+}
+.contact > button{
+    background-color: #928DD3;
+    width: 100%;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+}
+footer{
+    display: flex;
+    color: #FFFFFF99;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer > button{
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF29;
+    border-radius: 8px;
+    width: 156px;
+    height: 48px;
+
+}
