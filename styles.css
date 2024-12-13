@@ -225,6 +225,9 @@ body{
     border-radius: 8px;
     border: none;
 }
+.contact > p:nth-child(2){
+    color: #928DD3;
+}
 footer{
     display: flex;
     color: #FFFFFF99;
