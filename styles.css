@@ -1,7 +1,6 @@
 body{
     background-color: black;
-    width: Fixed (1,440px)px;
-    height: Hug (3,352px)px;
+    
     min-height: 900px;
     top: -1677px;
     left: -720px;
@@ -25,11 +24,12 @@ body{
 .navbar{
     display: flex;
     color: white;
-    width: Fill (1,344px)px;
-    height: Hug (80px)px;
+    width: 100%;
+    height: 80px;
     padding: 16px 0px 16px 0px;
     gap: 0px;
     border: 0px 0px 1px 0px;
+    align-items: center;
     justify-content: space-between;
     opacity: 0px;
     /* border-bottom: 1px solid white; */
@@ -37,43 +37,47 @@ body{
 }
 .bar{
     display: flex;
-    width: Hug (466px)px;
-    height: Hug (32px)px;
+    width: 466px;
+    height: 32px;
     gap: 32px;
     opacity: 0px;
     align-items: center;
     justify-content: center;
+   font-size: 25px;
 }
 .border{
     border-bottom: 1px solid white;
 }
 .content{
-    width: Fill (1,344px)px;
-    height: Hug (1,104px)px;
+    width: 100%;
+    height: 133.13vh;
     padding: 72px 0px 72px 0px;
     gap: 48px;
     border: 0px 0px 1px 0px;
     opacity: 0px;
-    width: 1344px;
+    
 
 }
+.content > img{
+    width: 100%;
+}
 .content > h1{
-    height: 240px;
+    height: 28.92vh;
     gap: 0px;
     opacity: 0px;
     text-align: center;
     font-family: Chivo;
-    font-size: 120px;
+    font-size: 8vw;
     font-weight: 900;
-    line-height: 120px;
+    line-height: 6.25vw;
     letter-spacing: -0.02em;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
 .projects{
-    width: Fill (1,344px)px;
-    height: Hug (720px)px;
+    width: 100%;
+    height: 720px;
     padding: 48px 0px 48px 0px;
     gap: 48px;
     opacity: 0px;
@@ -81,7 +85,7 @@ body{
 
 }
 .project-head{
-    width: 1344px;
+    width: 100%;
     height: 40px;
     gap: 0px;
     opacity: 0px;
@@ -97,12 +101,13 @@ body{
 
 .photo-container{
     display: flex;
-    width: Fill (1,344px)px;
-    height: Hug (624px)px;
+    width: 100%;
+    height: 624px;
     gap: 24px;
     opacity: 0px;
     /* background-color: #FFFFFF; */
     justify-content: space-between;
+    overflow-y:hidden ;
 }
 
 .card{
@@ -155,7 +160,7 @@ body{
 }
 
 .cardtext{
-    width: Fill (200px)px;
+    width: 200px;
     height: Hug (56px)px;
     padding: 0px 12px 0px 12px;
     gap: 12px;
@@ -163,8 +168,8 @@ body{
     text-align: center;    
 }
 .description-box{
-    width: Fill (1,344px)px;
-    height: Hug (508px)px;
+    width: 100%;
+    height: 508px;
     padding: 72px 0px 72px 0px;
     gap: 0px;
     border: 0px 0px 1px 0px;
