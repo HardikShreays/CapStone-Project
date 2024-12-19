@@ -12,7 +12,7 @@ body{
 }
 .navbar > h2{
     font-family: MuseoModerno;
-    font-size: 3.19vw;
+    font-size: 4.19vw;
     font-weight: 500;
     line-height: 42px;
     letter-spacing: -0.04em;
@@ -38,19 +38,21 @@ body{
 .bar{
     display: flex;
     width: 466px;
-    height: 32px;
+    height: 3vw;
     gap: 32px;
     opacity: 0px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
    font-size: 1.90208vw;
+   margin-left: auto;
+   box-sizing: content-box;
 }
 .border{
     border-bottom: 1px solid white;
 }
 .content{
     width: 100%;
-    height: 133.13vh;
+
     padding: 72px 0px 72px 0px;
     gap: 48px;
     border: 0px 0px 1px 0px;
@@ -62,7 +64,7 @@ body{
     width: 100%;
 }
 .content > h1{
-    height: 28.92vh;
+    height: 25.92vw;
     gap: 0px;
     opacity: 0px;
     text-align: center;
@@ -107,7 +109,9 @@ body{
     opacity: 0px;
     /* background-color: #FFFFFF; */
     justify-content: space-between;
-    overflow-y:hidden ;
+    overflow-y:scroll ;
+    scrollbar-color: white;
+    scroll-behavior: smooth;
 }
 
 .card{
@@ -177,8 +181,9 @@ body{
     
 }
 .description{
-    width: 672px;
-    height: 364px;
+    width: 55vw;
+    min-width: 500px;
+    height: auto;
     gap: 0px;
     opacity: 0px;
 
@@ -186,7 +191,7 @@ body{
 
 .description > p{
     font-family: Chivo;
-    font-size: 48px;
+    font-size: 250%;
     font-weight: 400;
     line-height: 52px;
     letter-spacing: -0.01em;
@@ -230,7 +235,7 @@ body{
     border-radius: 8px;
     border: none;
 }
-.contact > p:nth-child(2){
+.contact > p:nth-child(5){
     color: #928DD3;
 }
 footer{
