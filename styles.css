@@ -214,6 +214,8 @@ body{
     flex-direction: column;
     font-weight: bold;
     line-height: 0;
+    padding: 20px;
+    margin-bottom: 100px;
 }
 
 .inputs > input{
@@ -243,6 +245,8 @@ footer{
     color: #FFFFFF99;
     flex-direction: row;
     justify-content: space-between;
+    
+
 }
 footer > button{
     background-color: black;
