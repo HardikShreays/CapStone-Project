@@ -71,20 +71,18 @@ body{
 }
 .content{
     width: 100%;
-
-    padding: 72px 0px 72px 0px;
-    gap: 48px;
     border: 0px 0px 1px 0px;
-    
+    border-radius: 8px;
 
 }
 .content > img{
-    width: 100%;
+    width: 100%;  
+    border-radius: 20px;
+    
 }
 .content > h1{
     height: 25.92vw;
     gap: 0px;
-    opacity: 0px;
     text-align: center;
     font-family: Chivo;
     font-size: 8vw;
@@ -103,7 +101,7 @@ body{
     }
     50%{
         
-        color: #FF00FF;
+        color: yellowgreen;
     }
     75%{
         color: #FF00FF;
